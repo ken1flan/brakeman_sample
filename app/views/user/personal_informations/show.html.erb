@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Real name:</strong>
+  <%= @user_personal_information.real_name %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @user_personal_information.address %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @user_personal_information.user %>
+</p>
+
+<%= link_to 'Edit', edit_user_personal_information_path(@user_personal_information) %> |
+<%= link_to 'Back', user_personal_informations_path %>

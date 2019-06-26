@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.version     = Admin::VERSION
   spec.authors     = ["ken1flan"]
   spec.email       = ["ken1flan@gmail.com"]
-  spec.homepage    = "TODO"
-  spec.summary     = "TODO: Summary of Admin."
-  spec.description = "TODO: Description of Admin."
+  spec.homepage    = "https://github.com/ken1flan"
+  spec.summary     = "Brakeman sample"
+  spec.description = "Brakeman sample"
   spec.license     = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'

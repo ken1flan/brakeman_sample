@@ -1,3 +1,9 @@
+PATH
+  remote: admin
+  specs:
+    admin (0.1.0)
+      rails (~> 5.2.3)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -192,6 +198,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  admin!
   bootsnap (>= 1.1.0)
   brakeman
   byebug
